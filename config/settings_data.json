@@ -34,8 +34,8 @@
           "logo": "shopify:\/\/shop_images\/the_sil_hunter_green_logo_185x_2x_ce5a1dbc-84cb-4cfb-b607-e206e36be6d9.png",
           "logo_width": 100,
           "logo_position": "top-center",
-          "menu": "",
-          "menu_type_desktop": "mega",
+          "menu": "main-menu",
+          "menu_type_desktop": "dropdown",
           "show_line_separator": true,
           "enable_sticky_header": true,
           "margin_bottom": 24

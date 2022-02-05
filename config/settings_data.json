@@ -13,6 +13,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Welcome to our store",
               "color_scheme": "accent-1",
@@ -30,6 +31,7 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-2",
+          "logo": "shopify:\/\/shop_images\/the_sil_hunter_green_logo_185x_2x_ce5a1dbc-84cb-4cfb-b607-e206e36be6d9.png",
           "logo_width": 100,
           "logo_position": "top-center",
           "menu": "",

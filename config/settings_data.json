@@ -1,5 +1,15 @@
 {
   "current": {
+    "heading_scale": 120,
+    "page_width": 1600,
+    "spacing_sections": 20,
+    "buttons_radius": 40,
+    "variant_pills_border_thickness": 1,
+    "variant_pills_radius": 40,
+    "card_style": "card",
+    "card_text_alignment": "center",
+    "drawer_shadow_opacity": 0,
+    "drawer_shadow_blur": 0,
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -53,16 +63,26 @@
           },
           "footer-2": {
             "type": "text",
+            "disabled": true,
             "settings": {
               "heading": "Our mission",
               "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            }
+          },
+          "e926e487-c197-4460-9b71-9ff1956483c2": {
+            "type": "link_list",
+            "disabled": true,
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
             }
           }
         },
         "block_order": [
           "footer-0",
           "footer-1",
-          "footer-2"
+          "footer-2",
+          "e926e487-c197-4460-9b71-9ff1956483c2"
         ],
         "settings": {
           "color_scheme": "background-1",

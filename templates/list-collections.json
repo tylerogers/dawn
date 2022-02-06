@@ -3,7 +3,9 @@
     "main": {
       "type": "main-list-collections",
       "settings": {
-        "image_ratio": "square"
+        "title": "Collections",
+        "sort": "date_reversed",
+        "image_ratio": "portrait"
       }
     }
   },

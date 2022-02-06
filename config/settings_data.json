@@ -6,11 +6,13 @@
     "buttons_radius": 40,
     "variant_pills_border_thickness": 1,
     "variant_pills_radius": 40,
-    "card_style": "standard",
+    "card_style": "card",
     "card_text_alignment": "center",
+    "card_color_scheme": "background-1",
     "drawer_shadow_opacity": 0,
     "drawer_shadow_blur": 0,
     "badge_position": "top left",
+    "currency_code_enabled": false,
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",

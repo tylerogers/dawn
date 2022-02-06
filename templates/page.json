@@ -1,20 +1,67 @@
 {
   "sections": {
+    "16440674052649a8af": {
+      "type": "slideshow",
+      "blocks": {
+        "1644067405f295b37d-0": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "medium",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "1644067405f295b37d-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "medium",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1644067405f295b37d-0",
+        "1644067405f295b37d-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
-      }
-    },
-    "16424317009badb138": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<form action=\"{{ routes.search_url }}\">\n  <input type=\"text\"\n    placeholder=\"Search\"\n    name=\"q\"\n    value=\"{{ search.terms | escape }}\"\n  \/>\n  <input type=\"hidden\" name=\"type\" value=\"product,page\" \/>\n  <input type=\"hidden\" name=\"options[unavailable_products]\" value=\"hide\" \/>\n  <input type=\"hidden\" name=\"options[prefix]\" value=\"last\" \/>\n  <input type=\"submit\" value=\"Search\" \/>\n<\/form>"
+        "padding_top": 20,
+        "padding_bottom": 28
       }
     }
   },
   "order": [
-    "main",
-    "16424317009badb138"
+    "16440674052649a8af",
+    "main"
   ]
 }

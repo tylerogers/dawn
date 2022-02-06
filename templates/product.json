@@ -81,7 +81,7 @@
           "settings": {
             "heading": "Care Instructions",
             "icon": "heart",
-            "content": "",
+            "content": "<p>{{ product.title }}{{ product.metafields.my_fields.made_to_order.value }}<\/p>",
             "page": ""
           }
         },
@@ -116,12 +116,12 @@
       "settings": {
         "enable_sticky_info": true,
         "gallery_layout": "thumbnail_slider",
-        "media_size": "medium",
+        "media_size": "small",
         "mobile_thumbnails": "hide",
         "hide_variants": false,
         "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 12
+        "padding_top": 48,
+        "padding_bottom": 28
       }
     },
     "image-with-text": {

@@ -6,10 +6,11 @@
     "buttons_radius": 40,
     "variant_pills_border_thickness": 1,
     "variant_pills_radius": 40,
-    "card_style": "card",
+    "card_style": "standard",
     "card_text_alignment": "center",
     "drawer_shadow_opacity": 0,
     "drawer_shadow_blur": 0,
+    "badge_position": "top left",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -22,10 +23,20 @@
               "color_scheme": "background-1",
               "link": ""
             }
+          },
+          "ca8897a5-6ec3-47a0-bfa8-ab3ddd62ded1": {
+            "type": "announcement",
+            "disabled": true,
+            "settings": {
+              "text": "Welcome to our store",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
           }
         },
         "block_order": [
-          "announcement-bar-0"
+          "announcement-bar-0",
+          "ca8897a5-6ec3-47a0-bfa8-ab3ddd62ded1"
         ],
         "settings": {
         }

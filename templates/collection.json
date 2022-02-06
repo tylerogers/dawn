@@ -18,7 +18,7 @@
         "show_rating": true,
         "enable_filtering": true,
         "enable_sorting": true,
-        "collapse_on_larger_devices": false,
+        "collapse_on_larger_devices": true,
         "padding_top": 36,
         "padding_bottom": 36
       }

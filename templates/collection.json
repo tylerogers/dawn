@@ -15,10 +15,10 @@
         "image_ratio": "portrait",
         "show_secondary_image": false,
         "show_vendor": false,
-        "show_rating": false,
-        "enable_filtering": false,
+        "show_rating": true,
+        "enable_filtering": true,
         "enable_sorting": true,
-        "collapse_on_larger_devices": true,
+        "collapse_on_larger_devices": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
